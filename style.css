@@ -1047,3 +1047,27 @@ footer {
     transform: scale(1.05);
 }
 
+/* =========================
+   PROFILE IMAGE
+========================= */
+
+.image-placeholder {
+     width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+
+    overflow: hidden;
+    background: #0b1120;
+
+    box-shadow: 0 0 40px rgba(56, 189, 248, 0.15);
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
